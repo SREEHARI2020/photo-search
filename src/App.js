@@ -43,7 +43,7 @@ function App() {
        {
          result.map((item)=>(
            
-           <img className="item" key={item.id} src={item.urls.regular} />             
+           <img className="item col-dp-3 col-tb-4 col-mb-12" key={item.id} src={item.urls.regular} />             
          )
           )
        }
