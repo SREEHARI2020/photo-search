@@ -31,15 +31,14 @@ function App() {
      
         <div className="myapp">
           
-          <span>Search
+          <span><h1>GALLERY</h1>
             </span>
             <input className="my-input" type="text"  placeholder ="search here" value={value} onChange= {(e)=>setvalue(e.target.value)} />
             <button onClick={fetchImages}>Send</button>
        
         </div>
        <div className="gallery">
-         <div className="container">
-       
+         
            
        {
          result.map((item)=>(
@@ -50,7 +49,7 @@ function App() {
        }
        
       
-       </div>
+     
        </div>
        
 
